@@ -21,15 +21,15 @@ jobs:
           name: build-results
           path: dist
 
-  # # deploy:
-  # #   needs: build-and-test
-  # #   runs-on: ubuntu-latest
-  # #   steps:
-  # #     - name: Téléchargement des résultats de tests
-  # #       uses: actions/download-artifact@v2
-  # #       with:
-  #         name: test-results
-      - name: Déploiement sur le serveur de production
-        run: |
-          # Script de déploiement ici
-          echo "Déploiement de l'application sur le serveur de production."
+  # # # deploy:
+  # # #   needs: build-and-test
+  # # #   runs-on: ubuntu-latest
+  # # #   steps:
+  # # #     - name: Téléchargement des résultats de tests
+  # # #       uses: actions/download-artifact@v2
+  # # #       with:
+  # #         name: test-results
+  #     - name: Déploiement sur le serveur de production
+  #       run: |
+  #         # Script de déploiement ici
+  #         echo "Déploiement de l'application sur le serveur de production."
